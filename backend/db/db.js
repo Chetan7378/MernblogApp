@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-const url = "mongodb+srv://root:root@cluster0.r5whdug.mongodb.net/blogapp";
+const url = "enter your db url";
 // Connect MongoDB at default port 27017.
 let mong = mongoose.connect(
   url,
